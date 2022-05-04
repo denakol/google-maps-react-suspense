@@ -1,0 +1,37 @@
+{
+    "extends": [
+        "react-app",
+        "eslint:recommended",
+        "plugin:prettier/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["prettier", "@typescript-eslint"],
+    "rules": {
+        "prettier/prettier": "error",
+        "complexity": ["error", 10],
+        "max-depth": ["error", 4],
+        "max-len": [
+            "error",
+            {
+                "code": 120,
+                "ignoreRegExpLiterals": true,
+                "ignoreTemplateLiterals": true,
+                "ignoreStrings": true,
+                "ignoreTrailingComments": true
+            }
+        ],
+        "no-console": "warn"
+    },
+    "settings": {
+        "import/parsers": {
+            "@typescript-eslint/parser": [".ts", ".tsx"]
+        },
+        "import/resolver": {
+            "typescript": {}
+        }
+    },
+    "parserOptions": {
+        "project": "tsconfig.json"
+    }
+}
