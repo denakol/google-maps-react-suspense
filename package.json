@@ -3,7 +3,7 @@
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/denakol"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Suspense wrapper for google maps",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
