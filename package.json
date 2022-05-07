@@ -1,5 +1,8 @@
 {
-    "name": "google-maps-react-suspense",
+    "name": "@denakol/google-maps-react-suspense",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/denakol"
+    },
     "version": "1.0.0",
     "description": "Suspense wrapper for google maps",
     "scripts": {
