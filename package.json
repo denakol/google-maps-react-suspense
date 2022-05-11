@@ -1,9 +1,14 @@
 {
-    "name": "@denakol/google-maps-react-suspense",
+    "name": "google-maps-react-suspense",
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/denakol"
+        "registry": "https://registry.npmjs.org"
     },
-    "version": "1.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/denakol/google-maps-react-suspense.git"
+    },
+    "homepage": "https://github.com/denakol/google-maps-react-suspense",
+    "version": "1.0.2",
     "description": "Suspense wrapper for google maps",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
